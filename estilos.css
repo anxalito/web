@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap'); 
+body {
+    background-color:whitesmoke;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+a { /*El text-decoration es el subrellado azul que se pone a los links, se puede sesactivar así.*/
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    box-shadow: 15px 5px 20px black;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+
+.logo img {
+    height: 50px;
+    margin-right: 5px;
+}
+
+@media (max-width:500px){
+    .caja1 {
+        width: 300px;
+    }
+    
+}
+
+.caja1 {
+justify-content: center;
+    display: flex;
+    border: 5px solid black;
+    width: 300px;
+    margin: 15px auto;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+
+      /*box-shadow: 10px 5px 50px black;*/
